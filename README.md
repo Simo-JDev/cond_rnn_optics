@@ -63,7 +63,7 @@ See `CODE/TrainModel.ipynb` for a more detailed guide on how to train the model.
 ### Tips
 Although each use case is different, and the hyperparameters should be determined heuristically, there are a few things I have found that could be useful.
 #### Normalization
-As suggested by @philipperemy [here](https://github.com/philipperemy/cond_rnn/issues/41), complex conditions should be normalised to a range centered at 0 and with a varinace of 1.
+As suggested by @[philipperemy](https://github.com/philipperemy) [here](https://github.com/philipperemy/cond_rnn/issues/41), complex conditions should be normalised to a range centered at 0 and with a varinace of 1.
 #### Initialization of hidden states
 When modelling complex dynamics like the evolution of optical pulses, I have found that feeding each condition twice works best, as you can see in the example notebooks. 
 
@@ -90,6 +90,7 @@ I am also working on a more generalized version of this repo, since this method 
 
 
 ## References
+Special thanks to @[philipperemy](https://github.com/philipperemy) for making this layer, and for being so helpful as I was struggling in applying this architecture to my nonlinear optics research!
 - [Conditional Recurrent for Tensorflow/Keras](https://github.com/philipperemy/cond_rnn)
 - Lauria and Saleh, [Conditional recurrent neural networks for broad applications in nonlinear optics](http://dx.doi.org/10.1364/OE.506519)
 - Lauria and Saleh, [Mixing second- and third-order nonlinear interactions in nanophotonic lithium-niobate waveguides](http://dx.doi.org/10.1103/PhysRevA.105.043511)
