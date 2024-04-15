@@ -79,7 +79,7 @@ This is a visual comparison of the RNN compared to the numerical solution.
 
 This model produced the above result in 5 seconds.
 
-<strong>For more results and a detailed discussion on the performance, pelase see the [paper](http://dx.doi.org/10.1364/OE.506519)</strong>
+<strong>For more results and a detailed discussion on the performance, please see the [paper](http://dx.doi.org/10.1364/OE.506519)</strong>
 
 ## Possible future improvements
 Since the `ConditionalRecurrent` is compatible with all recurrent layers in Keras, it is possible to use `SimpleRNN` and `GRU` layers instead of the `LSTM`. Specifically, `GRU` layers could be used for achieving a more lean and quick network. 
